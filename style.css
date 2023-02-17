@@ -1,0 +1,638 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: black;
+
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+header {
+    margin: 0px 50px;
+}
+
+main {
+    margin: 0px 50px;
+}
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    padding: 44px 0px;
+}
+
+
+/*********BUTTON*********/
+
+.button {
+    margin: 10px 1%;
+    padding: 15px 22px;
+
+    background-color: white;
+    border-color: #f2f2f2;
+    color: black;
+
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+
+    box-sizing: border-box;
+
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #deebfc;
+}
+
+.buttonInfo {
+    margin: 5px 10px;
+    padding: 6px 10px;
+    font-size: 12px;
+
+    background-color: white;
+    border-color: #f2f2f2;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 39px;
+}
+
+.buttonTop {
+    text-decoration: none;
+    color: black;
+}
+
+.showmore {
+    text-decoration: none;
+}
+
+.buttonPing {
+    background-color: #f2f2f2;
+    padding: 17.5px 17px;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.buttonBarre {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-size: large;
+    color: black;
+    font-weight: 600;
+    padding: 15px 26px;
+    border: 1px solid #f2f2f2;
+}
+
+.buttonSrc {
+    padding: 15px 16px;
+    cursor: pointer;
+
+    background-color: #0065fc;
+    border: 1px solid #0065fc;
+    border-radius: 0px 15px 15px 0px;
+
+    font-family: "Raleway";
+    font-size: large;
+    color: white;
+    font-weight: 600;
+}
+
+.buttonSrcMobile {
+    display: none;
+    padding: 15px 16px;
+    cursor: pointer;
+
+    background-color: #0065fc;
+    border: 1px solid #0065fc;
+    border-radius: 0px 15px 15px 0px;
+
+    font-family: "Raleway";
+    font-size: large;
+    color: white;
+    font-weight: 600;
+}
+
+.buttonblock {
+    box-sizing: border-box;
+    object-fit: cover;
+
+    height: 124px;
+
+    border: 5px solid white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.buttonblockpopulaire {
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 40%;
+    height: 100%;
+
+
+    border: 5px solid white;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.buttonactivity {
+    object-fit: cover;
+
+    box-sizing: border-box;
+    height: 375.51px;
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.buttonlabel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 36px;
+
+    padding: 10px 0px 10px 19px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #d9d9d9;
+    border-radius: 0px 0px 20px 20px;
+
+    font-family: "Raleway";
+    font-size: large;
+    font-weight: 700;
+}
+
+/******************/
+
+/*********Display*********/
+
+.topdisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.displayTextPop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ultopdisplay {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+}
+
+.displayColumn {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.displayColumnPop {
+    display: flex;
+    flex-direction: column;
+}
+
+.activitydisplay {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.activitydisplay div {
+    width: 30%;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.displayfiltre {
+    width: 100%;
+}
+
+.displayInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hebergement {
+    display: flex;
+}
+
+/******************/
+
+/*********Color*********/
+
+.linkMenu {
+    padding: 48px 33.5px;
+    cursor: pointer;
+}
+
+.linkMenu:hover {
+    border-top: 2px solid #0065fc;
+    padding: 46px 33.5px;
+}
+
+.linkMenu:hover .buttonTop {
+    color: #0065fc;
+}
+
+.color {
+    color: #0065fc;
+}
+
+.uncolor {
+    color: #f2f2f2;
+}
+
+/******************/
+
+/*********Footer*********/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #f2f2f2;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 58px;
+}
+
+.footerdisplay {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 70px;
+}
+
+/******************/
+
+/*********Block*********/
+
+.bigblock {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 40px;
+    height: 680px;
+    max-width: 800px;
+    margin: 15px 2% 0px 0px;
+}
+
+.blockpopulaire {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 37px;
+    max-width: 347px;
+    height: 686px;
+    margin-top: 15px;
+}
+
+.Middblock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+
+    width: 31%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+
+    margin: 15px 0px;
+}
+
+.block-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.blockpop {
+    display: flex;
+    height: 147px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+
+    margin: 16.5px 0px;
+}
+
+.fa-solid {
+    font-size: 14px;
+}
+
+.contentPopularCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 56%;
+}
+
+/******************/
+
+/*********Margin*********/
+
+.margin {
+    margin: 4.5px 0px;
+}
+
+.marginPop {
+    margin: 4.5px 0px;
+}
+
+.marginleft {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.marginleftPop {
+    margin-left: 6px;
+}
+
+.marginright {
+    margin-right: 10px;
+}
+
+.margintop {
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.marginbottom {
+    margin-top: 7px;
+    margin-bottom: 11px;
+}
+
+.paddingbottom {
+    padding-bottom: 12px;
+    padding-left: 0px;
+}
+
+section {
+    padding: 10px 0px;
+}
+
+
+/******************/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main,
+    header {
+        margin: 0px 72px;
+    }
+
+    footer {
+        margin: 69px 72px 0px 72px;
+    }
+
+    .button {
+        margin: 1%;
+        padding: 2%;
+        font-size: 12px;
+    }
+
+    .hebergement {
+        flex-direction: column;
+    }
+
+    .bigblock {
+        max-width: 803px;
+        margin-right: 0px;
+    }
+
+    .blockpopulaire {
+
+        max-width: 803px;
+        height: 200px;
+        padding: 10px 40px 68px 40px;
+        margin-top: 53px;
+    }
+
+    .buttonactivity {
+        max-width: 182px;
+        height: 211px;
+    }
+
+    .buttonlabel {
+        max-width: 163px;
+        height: 16px;
+        padding: 20px 0px 20px 19px;
+        font-size: medium;
+    }
+
+    .footerdisplay {
+        padding: 0px 12px 0px 70px;
+    }
+
+    .articlepop {
+        width: 32%;
+    }
+
+    .blockpop {
+        height: 159px;
+        margin: 0px;
+    }
+
+    .buttonblockpopulaire {
+        width: 50%;
+        max-width: 106px;
+        height: auto;
+    }
+
+    .displayColumnPop {
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 1%;
+    }
+
+    .margintop {
+        font-size: medium;
+        margin-top: 12px;
+        max-width: 111px;
+    }
+
+    .marginleftPop {
+        margin-left: 5px;
+    }
+
+    .marginPop {
+        font-size: small;
+    }
+
+    .marginleft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .activitydisplay {
+        display: flex;
+    }
+
+    .buttonSrcMobile {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    header, main {
+        margin: 0%;
+    }
+
+    .topdisplay {
+        flex-direction: column;
+    }
+
+    .ultopdisplay {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .linkMenu {
+        padding: 31px 40px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .linkMenu:hover {
+        border-bottom: 3px solid #0065fc;
+        border-top: 0px;
+        padding: 31px 40px 28px 40px;
+    }
+
+    .buttonSrc {
+        display: none;
+    }
+
+    .buttonSrcMobile {
+        display: inline;
+    }
+
+    .buttonBarre {
+        padding: 15px 0px 15px 3%;
+    }
+
+    .filtre {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .filtre div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 1%;
+        row-gap: 17px;
+    }
+
+    .button {
+        font-size: 11px;
+        width: 45%;
+        margin: 0%;
+        padding: 15px;
+        line-height: 12.91px;
+        font-weight: bold;
+    }
+
+    .marginright {
+        margin-right: 5%;
+    }
+
+    .hebergement {
+        flex-wrap: wrap-reverse;
+    }
+
+    .blockpopulaire {
+        width: 100%;
+        padding: 1%;
+        border-radius: 0%;
+        max-width: 750px;
+    }
+
+    .bigblock {
+        background-color: white;
+        padding: 0%;
+        height: auto;
+    }
+
+    .Middblock {
+        background-color: white;
+        max-width: 645px;
+    }
+
+    .block {
+        width: 100%;
+    }
+
+    .displayColumn {
+        width: 100%;
+        padding: 12px 0px;
+    }
+
+    .displayTextPop {
+        margin: 0px 20px;
+    }
+
+    .displayColumnPop {
+        margin: 0px 20px;
+    }
+
+    .buttonactivity {
+        max-height: 134px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .footerdisplay {
+        padding: 0px 10px 0px 30px;
+        margin-top: 23.72px;
+    }
+
+    .activitydisplay {
+        display: inline-block;
+        max-width: 645px;
+    }
+
+    .activitydisplay div {
+        width: 51%;
+    }
+
+    .espaceMobile {
+        padding: 10px 5%;
+    }
+
+    .showmore {
+        display: none;
+    }
+}
